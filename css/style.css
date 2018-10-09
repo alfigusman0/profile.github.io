@@ -869,7 +869,7 @@ div#services {
     border-right: 1px solid rgba(255, 255, 255, 0.29);
 }
 
-.contact-right-w3l h3:before {
+.contact-right-p3a h3:before {
     width: 35%;
 }
 
@@ -969,7 +969,7 @@ div#services {
     background: rgb(255, 255, 255);
 }
 
-.contact-right-w3l {
+.contact-right-p3a {
     padding: 5em 12em;
     border-right: 1px solid rgba(255, 255, 255, 0.29);
 }
@@ -1464,7 +1464,7 @@ ul.w3-links li a i.fa:hover {
     .pull-right{
         float: none !important;
     }
-    h3.agileits-title.cont-w3l {
+    h3.agileits-title.cont-p3a {
         text-transform: capitalize;
     }
     a.wthree-.about-link{
