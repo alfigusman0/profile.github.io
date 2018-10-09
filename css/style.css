@@ -67,10 +67,10 @@ body a:focus {
     font-size: 3.5em;
     line-height: 1.5em;
     display: inline-block;
-    border: solid #7ecaf6;
+    border: solid #6c9d98;
     border-width: 4px;
     color: rgb(255, 255, 255);
-    background: #567182;
+    background: #58827d;
     padding: 0 1em;
     letter-spacing: 1px;
     font-weight: 800;
@@ -93,7 +93,7 @@ h2.ps3-bnrtext span {
 }
 
 p.ps3-p {
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: #fff;
     text-transform: capitalize;
     padding-top: 1em;
@@ -106,7 +106,7 @@ a.buy {
     font-size: 1em;
     color: #fff;
     padding: 0.7em 0;
-    margin: 4em auto 0;
+    margin: 2em auto 0;
     text-align: center;
     border-radius: 5px;
     border: 2px solid;
