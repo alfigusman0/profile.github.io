@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: profile
+Author URL: http://profile.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -667,16 +667,16 @@ div#services h3 {
     -webkit-border-radius:50%;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1,
-.services-w3ls-row.agileits-w3layouts.service4 {
+.services-w3ls-row.agileits-profile.service1,
+.services-w3ls-row.agileits-profile.service4 {
     margin: 0 auto;
     width: 25%;
     text-align: center;
     position: relative;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1:before,
-.services-w3ls-row.agileits-w3layouts.service4:before {
+.services-w3ls-row.agileits-profile.service1:before,
+.services-w3ls-row.agileits-profile.service4:before {
     content: '';
     background: #fff;
     display: block;
@@ -687,21 +687,21 @@ div#services h3 {
     position: absolute;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1:before {
+.services-w3ls-row.agileits-profile.service1:before {
     bottom: -35px;
 }
 
-.services-w3ls-row.agileits-w3layouts.service4:before {
+.services-w3ls-row.agileits-profile.service4:before {
     top: -35px;
 }
 
-.services-grid.agileits-w3layouts.service2 {
+.services-grid.agileits-profile.service2 {
     text-align: right;
     padding-right: 4em;
     padding-left: 2em;
 }
 
-.services-grid.agileits-w3layouts.service3 {
+.services-grid.agileits-profile.service3 {
     padding-left: 4em;
     padding-right: 2em;
 }
@@ -720,7 +720,7 @@ div#services {
     background: #03afdd;
 }
 
-.agileits-w3layouts h5 {
+.agileits-profile h5 {
     color: #e4e0e0;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -732,7 +732,7 @@ div#services {
     margin: 1em 0;
 }
 
-.services-grid.agileits-w3layouts {
+.services-grid.agileits-profile {
     margin-top: 10em;
 }
 
@@ -1044,18 +1044,18 @@ ul.w3-links li a i.fa:hover {
 
 /*-- //contact --*/
 
-.agileits_w3layouts-footer {
+.agileits_profile-footer {
     text-align: center;
     padding: 2em 0;
     background: #1853a1;
 }
 
-.agileits_w3layouts-footer p {
+.agileits_profile-footer p {
     color: #fff;
     letter-spacing: 1px;
 }
 
-.agileits_w3layouts-footer p a {
+.agileits_profile-footer p a {
     color: #7ecaf6;
     text-decoration: none;
     -webkit-transition: .5s all;
@@ -1063,7 +1063,7 @@ ul.w3-links li a i.fa:hover {
     transition: .5s all;
 }
 
-.agileits_w3layouts-footer p a:hover {
+.agileits_profile-footer p a:hover {
     color: #fff;
 }
 
@@ -1111,7 +1111,7 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 48%;
     }
-    .services-grid.agileits-w3layouts {
+    .services-grid.agileits-profile {
         margin-top: 7em;
     }
 }
@@ -1129,10 +1129,10 @@ ul.w3-links li a i.fa:hover {
     .img-agileits:after {
         right: -35px;
     }
-    .services-grid.agileits-w3layouts.service3 {
+    .services-grid.agileits-profile.service3 {
         padding-left: 1em;
     }
-    .services-grid.agileits-w3layouts.service2 {
+    .services-grid.agileits-profile.service2 {
         padding-right: 2em;
     }
     .img-agileits:before {
@@ -1164,14 +1164,14 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 62%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1,.services- w3ls-row.agileits-w3layouts.service4,.services-grid.agileits-w3layouts.service2{
+    .services-w3ls-row.agileits-profile.service1,.services- w3ls-row.agileits-profile.service4,.services-grid.agileits-profile.service2{
         margin: 0 1em;
         width: 46%;
         float: left;
        text-align: left;
        padding: 0;
     }
-    .services-w3ls-row.agileits-w3layouts.service1:before,.img-agileits:before,.img-agileits:after,.services-w3ls-row.agileits-w3layouts.service4:before{
+    .services-w3ls-row.agileits-profile.service1:before,.img-agileits:before,.img-agileits:after,.services-w3ls-row.agileits-profile.service4:before{
         display: none;
     }
     .w3ls-sub-text {
@@ -1181,13 +1181,13 @@ ul.w3-links li a i.fa:hover {
         padding: 0;
         margin: 1em 0;
     }
-    .services-grid.agileits-w3layouts{
+    .services-grid.agileits-profile{
         margin: 0;
     }
     .sub-icon {
         margin-top: 1em;
     }
-  .services-grid.agileits-w3layouts.service3,.services-w3ls-row.agileits-w3layouts.service4 {
+  .services-grid.agileits-profile.service3,.services-w3ls-row.agileits-profile.service4 {
         float: none;
         width: 100%;
         margin: 2em 0;
@@ -1224,10 +1224,10 @@ ul.w3-links li a i.fa:hover {
 
 
 @media screen and (max-width: 768px){
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2{
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2{
         padding: 1em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4{
+    .services-grid.agileits-profile.service3, .services-w3ls-row.agileits-profile.service4{
         padding:0 2em;
     }
     .banner-text h1 {
@@ -1272,7 +1272,7 @@ ul.w3-links li a i.fa:hover {
     .services-grid img {
         width: 50%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2 {
        width: 45%;
     }
     h3.agileits-title {
@@ -1304,7 +1304,7 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 76%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2 {
         width: 84%;
     }
     .sub-icon span, .s-top span {
@@ -1340,7 +1340,7 @@ ul.w3-links li a i.fa:hover {
     
 }
 @media screen and (max-width: 568px){
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2 {
         width: 96%;
     }
     .nav-tabs {
@@ -1369,10 +1369,10 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 97%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2 {
         padding: 1em 1em 0.5em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4 {
+    .services-grid.agileits-profile.service3, .services-w3ls-row.agileits-profile.service4 {
        margin: 1em 0;
     }
     .vertical-skills li span.title {
@@ -1424,7 +1424,7 @@ ul.w3-links li a i.fa:hover {
         width: 26%;
         font-size: 1em;
     }
-    .agileits_w3layouts-footer {
+    .agileits_profile-footer {
         padding: 2em 1em;
     }
 
@@ -1517,7 +1517,7 @@ ul.w3-links li a i.fa:hover {
     .agileits-main-right {
         padding: 3em 1.5em;
     }
-    .agileits_w3layouts-footer {
+    .agileits_profile-footer {
         padding: 1em 0;
     }
 }
@@ -1551,16 +1551,16 @@ ul.w3-links li a i.fa:hover {
     .vertical-skills li {
        margin: 0 6px;
     }
-    .agileits_w3layouts-footer {
+    .agileits_profile-footer {
         padding: 1em 0.8em;
     }
     .vertical-skills li {
         margin: 0 2px;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-w3ls-row.agileits-profile.service1, .services- w3ls-row.agileits-profile.service4, .services-grid.agileits-profile.service2 {
         padding: 1em 0em 0.5em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4 {
+    .services-grid.agileits-profile.service3, .services-w3ls-row.agileits-profile.service4 {
         padding: 0 1em;
     }
     #menuToggle {
