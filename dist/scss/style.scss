@@ -7,6 +7,17 @@
 /*==================== VARIABLES CSS ====================*/
 @import './variables';
 
+/* Font size for large devices */
+@include media('>968') {
+    $big-font-size: 3rem;
+    $h1-font-size: 2.25rem;
+    $h2-font-size: 1.5rem;
+    $h3-font-size: 1.25rem;
+    $normal-font-size: 1rem;
+    $small-font-size: .875rem;
+    $smaller-font-size: .813rem;
+}
+
 /*========== Variables Dark theme ==========*/
 
 
@@ -14,36 +25,8 @@
 
 
 /*==================== BASE ====================*/
-@import './resets';
+@import './base';
 
-body {
-    margin: 0 0 $header-height;
-    font-family: $body-font;
-    font-size: $normal-font-size;
-    background-color: $body-color;
-    color: $text-color;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: $title-color;
-    font-weight: $font-semi-bold;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
@@ -113,8 +96,8 @@ img {
 .nav__toggle {
     color: $first-color;
 }
-
-@media screen and (max-width: 767px) {
+/* Font size for large devices */
+@include media('<=tablet') {
     .nav__menu {
         position: fixed;
         bottom: -100%;
