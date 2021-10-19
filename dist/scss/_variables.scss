@@ -2,7 +2,7 @@ $header-height: 3rem;
 
 /*========== Colors ==========*/
 /* Change favorite color */
-$hue-color: 142;
+$hue-color: 1300;
 /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
 /* HSL color mode */
@@ -49,3 +49,19 @@ $mb-3: 3rem;
 $z-tooltip: 10;
 $z-fixed: 100;
 $z-modal: 1000;
+
+/* Font size for large devices */
+@include media('>968') {
+    $big-font-size: 3rem;
+    $h1-font-size: 2.25rem;
+    $h2-font-size: 1.5rem;
+    $h3-font-size: 1.25rem;
+    $normal-font-size: 1rem;
+    $small-font-size: .875rem;
+    $smaller-font-size: .813rem;
+}
+
+/*========== Variables Dark theme ==========*/
+
+
+/*========== Button Dark/Light ==========*/

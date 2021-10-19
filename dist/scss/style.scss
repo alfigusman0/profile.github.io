@@ -7,23 +7,6 @@
 /*==================== VARIABLES CSS ====================*/
 @import './variables';
 
-/* Font size for large devices */
-@include media('>968') {
-    $big-font-size: 3rem;
-    $h1-font-size: 2.25rem;
-    $h2-font-size: 1.5rem;
-    $h3-font-size: 1.25rem;
-    $normal-font-size: 1rem;
-    $small-font-size: .875rem;
-    $smaller-font-size: .813rem;
-}
-
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
-
-
 /*==================== BASE ====================*/
 @import './base';
 
@@ -70,91 +53,7 @@
 }
 
 /*==================== NAV ====================*/
-.nav {
-    max-width: 968px;
-    height: $header-height;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__logo,
-.nav__toggle {
-    color: $title-color;
-    font-weight: $font-medium;
-}
-
-.nav__logo:hover {
-    color: $first-color;
-}
-
-.nav__toggle {
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-.nav__toggle {
-    color: $first-color;
-}
-/* Font size for large devices */
-@include media('<=tablet') {
-    .nav__menu {
-        position: fixed;
-        bottom: -100%;
-        left: 0;
-        width: 100%;
-        background-color: $body-color;
-        padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
-        border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
-    }
-}
-
-.nav__list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-
-.nav__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: $small-font-size;
-    color: $title-color;
-    font-weight: $font-medium;
-}
-
-.nav__link:hover {
-    color: $first-color;
-}
-
-.nav__icon {
-    font-size: 1.2rem;
-}
-
-.nav__close {
-    position: absolute;
-    right: 1.3rem;
-    bottom: .5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: $first-color;
-}
-
-.nav__close:hover {
-    color: $first-color-alt;
-}
-
-/* show menu */
-.show-menu {
-    bottom: 0;
-}
-
-/* Active link */
-
-
-/* Change background header */
+@import './navigation';
 
 
 /*==================== HOME ====================*/
@@ -212,7 +111,7 @@
 }
 
 .home__scroll {
-    /* display: none; */
+    display: none;
 }
 
 .home__scroll-button {
@@ -240,7 +139,29 @@
 }
 
 /*==================== BUTTONS ====================*/
+.button{
+    display: inline-block;
+    background-color: $first-color;
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: $font-medium;
+}
 
+.button:hover{
+    background-color: $first-color-alt;
+}
+
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: $mb-0-5;
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
 
 /*==================== ABOUT ====================*/
 
