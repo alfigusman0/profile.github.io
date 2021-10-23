@@ -139,7 +139,7 @@
 }
 
 /*==================== BUTTONS ====================*/
-.button{
+.button {
     display: inline-block;
     background-color: $first-color;
     color: #FFF;
@@ -148,23 +148,60 @@
     font-weight: $font-medium;
 }
 
-.button:hover{
+.button:hover {
     background-color: $first-color-alt;
 }
 
-.button__icon{
+.button__icon {
     font-size: 1.25rem;
     margin-left: $mb-0-5;
     transition: .3s;
 }
 
-.button--flex{
+.button--flex {
     display: inline-flex;
     align-items: center;
 }
 
 /*==================== ABOUT ====================*/
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
 
+.about__description {
+    text-align: center;
+    margin-bottom: $mb-2-5;
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: $mb-2-5;
+}
+
+.about__info-title {
+    font-size: $h2-font-size;
+    font-weight: $font-semi-bold;
+    color: $title-color;
+}
+
+.about__info-name {
+    font-size: $smaller-font-size;
+}
+
+.about__info-title,
+.about__info-name {
+    display: blok;
+    text-align: center;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
 
 /*==================== SKILLS ====================*/
 
