@@ -1,0 +1,19 @@
+.container {
+    max-width: 768px;
+    margin-left: $mb-1-5;
+    margin-right: $mb-1-5;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: $z-fixed;
+    background-color: $body-color;
+}
