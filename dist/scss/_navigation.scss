@@ -1,6 +1,6 @@
 .nav {
     max-width: 968px;
-    height: $header-height;
+    height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,12 +8,12 @@
 
 .nav__logo,
 .nav__toggle {
-    color: $title-color;
-    font-weight: $font-medium;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
 }
 
 .nav__logo:hover {
-    color: $first-color;
+    color: var(--first-color);
 }
 
 .nav__toggle {
@@ -22,17 +22,17 @@
 }
 
 .nav__toggle {
-    color: $first-color;
+    color: var(--first-color);
 }
 
 /* Font size for large devices */
-@include media('<=tablet') {
+@media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
         bottom: -100%;
         left: 0;
         width: 100%;
-        background-color: $body-color;
+        background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
         border-radius: 1.5rem 1.5rem 0 0;
@@ -49,13 +49,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: $small-font-size;
-    color: $title-color;
-    font-weight: $font-medium;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
 }
 
 .nav__link:hover {
-    color: $first-color;
+    color: var(--first-color);
 }
 
 .nav__icon {
@@ -68,11 +68,11 @@
     bottom: .5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: $first-color;
+    color: var(--first-color);
 }
 
 .nav__close:hover {
-    color: $first-color-alt;
+    color: var(--first-color-alt);
 }
 
 /* show menu */
@@ -82,7 +82,7 @@
 
 /* Active link */
 .active-link {
-    color: $first-color;
+    color: var(--first-color);
 }
 
 /* Change background header */

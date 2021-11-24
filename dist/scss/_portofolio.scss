@@ -13,12 +13,12 @@
 }
 
 .portofolio__title {
-    font-size: $h3-font-size;
-    margin-bottom: $mb-0-5;
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
 }
 
 .portofolio__description {
-    margin-bottom: $mb-0-75;
+    margin-bottom: var(--mb-0-75);
 }
 
 .portofolio__button:hover .button__icon {
@@ -32,7 +32,7 @@
 
 .swiper-portofolio-icon {
     font-size: 2rem;
-    color: $first-color;
+    color: var(--first-color);
 }
 
 .swiper-button-prev {
@@ -50,7 +50,7 @@
 }
 
 .swiper-pagination-bullets-active {
-    background-color: $first-color;
+    background-color: var(--first-color);
 }
 
 .swiper-button-prev,

@@ -5,27 +5,27 @@
 .skills__header {
     display: flex;
     align-items: center;
-    margin-bottom: $mb-2-5;
+    margin-bottom: var(--mb-2-5);
     cursor: pointer;
 }
 
 .skills__icon,
 .skills__arrow {
     font-size: 2rem;
-    color: $first-color;
+    color: var(--first-color);
 }
 
 .skills__icon {
-    margin-right: $mb-0-75;
+    margin-right: var(--mb-0-75);
 }
 
 .skills__title {
-    font-size: $h3-font-size;
+    font-size: var(--h3-font-size);
 }
 
 .skills__subtitle {
-    font-size: $small-font-size;
-    color: $text-color-light;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
 }
 
 .skills__arrow {
@@ -36,12 +36,12 @@
 .skills__titles {
     display: flex;
     justify-content: space-between;
-    margin-bottom: $mb-0-5;
+    margin-bottom: var(--mb-0-5);
 }
 
 .skills__name {
-    font-size: $normal-font-size;
-    font-weight: $font-medium;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
 }
 
 .skills__bar,
@@ -51,12 +51,12 @@
 }
 
 .skills__bar {
-    background-color: $first-color-lighter;
+    background-color: var(--first-color-lighter);
 }
 
 .skills__percentage {
     display: block;
-    background-color: $first-color;
+    background-color: var(--first-color);
 }
 
 .skills__html {
@@ -117,7 +117,7 @@
 .skills__open {
     .skills__list {
         height: max-content;
-        margin-bottom: $mb-2-5;
+        margin-bottom: var(--mb-2-5);
     }
 
     .skills__arrow {

@@ -3,13 +3,13 @@
 }
 
 .section__title {
-    font-size: $h1-font-size;
+    font-size: var(--h1-font-size);
 }
 
 .section__subtitle {
     display: block;
-    font-size: $small-font-size;
-    margin-bottom: $mb-3;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
 }
 
 .section__title,
