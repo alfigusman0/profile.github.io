@@ -27,7 +27,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="fas fa-home nav__icon"></i> Home
                         </a>
                     </li>
@@ -52,7 +52,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">
+                        <a href="#contact" class="nav__link">
                             <i class="fas fa-envelope nav__icon"></i> Contact Me
                         </a>
                     </li>
@@ -108,8 +108,9 @@
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'am Alfi Gusman</h1>
                         <h3 class="home__subtitle">Web Developer</h3>
-                        <p class="home_description">High level experience in web design and development, knowledge,
-                            producing quality work.</p>
+                        <p class="home_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eaque
+                            distinctio explicabo eligendi fuga optio veniam, vero, repudiandae ipsa suscipit quo aliquid
+                            odit deserunt aliquam possimus amet sint minima! Delectus?</p> <br>
                         <a href="#contact" class="button button--flex">
                             Contact Me <li class="fas fa-paper-plane button__icon"></li>
                         </a>
@@ -621,7 +622,7 @@
         </section>
 
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
+        <section class="portfolio section" id="portofolio">
             <h2 class="section__title">Portofolio</h2>
             <span class="section__subtitle">Most recent work</span>
 
@@ -710,25 +711,202 @@
 
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
 
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <!--==================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="dist/img/testimonial1.jpg" alt="" class="testimonial__img">
 
+                                <div>
+                                    <h3 class="testimonial__name">Sara Smith</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Eveniet dolore cum est laboriosam labore odio nostrum inventore necessitatibus optio,
+                            maiores facere similique temporibus commodi quas iste alias asperiores possimus eum?</p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="dist/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Matt Robinson</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Eveniet dolore cum est laboriosam labore odio nostrum inventore necessitatibus optio,
+                            maiores facere similique temporibus commodi quas iste alias asperiores possimus eum?</p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="dist/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Raul Haris</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                                <i class="far fa-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Eveniet dolore cum est laboriosam labore odio nostrum inventore necessitatibus optio,
+                            maiores facere similique temporibus commodi quas iste alias asperiores possimus eum?</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
         </section>
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
 
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="fas fa-phone contact__icon"></i>
 
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">999-888-777</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="far fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">alfi.gusman.9f@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Indonesia - Jawa Barat, Kab. Bandung, Cileunyi,
+                                Cibiru</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="30" rows="10" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="far fa-paper-plane button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Alfi Gusman</h1>
+                    <span class="footer__subtitle">Web developer</span>
+                </div>
 
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portofolio" class="footer__link">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
 
+                <div class="footer__socials">
+                    <a href="https://facebook.com/" target="_blank" class="footer__social">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" class="footer__social">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+
+                <p class="footer__copy">&copy; Alfi Gusman. All right reserved.</p>
+
+            </div>
+        </div>
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="dist/js/swiper-bundle.min.js"></script>
