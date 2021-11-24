@@ -31,9 +31,9 @@
         font-size: var(--smaller-font-size);
     }
 
-}
+    .about__buttons {
+        display: flex;
+        justify-content: center;
+    }
 
-.about__buttons {
-    display: flex;
-    justify-content: center;
 }
