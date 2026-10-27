@@ -1,1 +1,3 @@
 .idea
+# Konfigurasi lokal Claude Code (berisi path dan info infrastruktur internal)
+.claude/
