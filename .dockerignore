@@ -1,0 +1,9 @@
+# Hanya file situs yang masuk build context
+.git
+.claude
+.idea
+.gitignore
+.dockerignore
+.circleci
+Dockerfile
+README.md
